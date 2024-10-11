@@ -96,6 +96,9 @@ input,button{
 	border: none;
 	font-size:var(--step-2);
 	font-weight: 200;
+	max-width: 100%;
+  
+    box-sizing: border-box;
 }
 button{
 	background: linear-gradient(271.72deg, #a2facf 7.09%, #64acff 96.61%);
