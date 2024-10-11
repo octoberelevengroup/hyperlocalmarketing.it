@@ -1,0 +1,105 @@
+@import url('https://fonts.cdnfonts.com/css/mona-sans');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+.text-gradient-mint-blue {
+	font-family: 'Mona-Sans', sans-serif;
+	line-height: 1.5;
+	font-size: 86px;
+	background: linear-gradient(271.72deg, #a2facf 7.09%, #64acff 96.61%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 900;
+}
+:root{
+	--fluid-screen: 100vw;
+    --fluid-bp: calc((var(--fluid-screen) - 20rem) / 2240);
+    --step--2: calc(0.769375rem + 1.55* var(--fluid-bp));
+    --step--1: calc(0.8775rem + 3.42* var(--fluid-bp));
+    --step-0: calc(1rem + 6* var(--fluid-bp));
+    --step-1: calc(1.14rem + 9.48* var(--fluid-bp));
+    --step-2: calc(1.299375rem + 14.14* var(--fluid-bp));
+    --step-3: calc(1.48125rem + 20.31* var(--fluid-bp));
+    --step-4: calc(1.68875rem + 28.43* var(--fluid-bp));
+    --step-5: calc(1.925625rem + 39.06* var(--fluid-bp));
+    --step-6: calc(2.195rem + 52.91* var(--fluid-bp));
+    --step-7: calc(2.5025rem + 70.88* var(--fluid-bp));
+    --step-8: calc(2.8525rem + 94.12* var(--fluid-bp));
+    --step-9: calc(3.251875rem + 124.07* var(--fluid-bp));
+    --step-10: calc(3.7075rem + 162.57* var(--fluid-bp));
+}
+
+body {
+	margin: 0;
+	font-size: var(--step-3);
+	background-color: #000;
+	color: #fff;
+
+	font-family: "DM Sans", sans-serif;
+	font-weight: 200;
+	line-height: 1.4;
+	overscroll-behavior: none;
+}
+
+.teaser {
+	max-width: 80%;
+	margin: auto;
+}
+
+.teaser b {
+	color: #ea80fc;
+}
+.container{
+	max-width: 1450px;
+	margin: 0 auto;
+	font-family: "DM Sans", sans-serif;
+	padding: 15px;
+	font-weight: 200;
+	font-size:var(--step-3);
+}
+.container h2,.container h1,.container h3{
+	font-weight: 200;
+	font-size: var(--step-7);
+}
+#info {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	z-index: 1;
+}
+form{
+	display: flex;
+gap: 15px;
+flex-direction: column;
+	align-items: start;
+	padding: 35px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+form div{
+	display: flex;
+	flex-direction: column;
+
+	gap: 5px;;
+}
+
+input,button{
+	padding: 5px 15px;
+	border-radius: 30px;
+	border: none;
+	font-size:var(--step-2);
+	font-weight: 200;
+}
+button{
+	background: linear-gradient(271.72deg, #a2facf 7.09%, #64acff 96.61%);
+	cursor: pointer;
+	margin-top: 30px;
+	font-size:var(--step-3);
+}
