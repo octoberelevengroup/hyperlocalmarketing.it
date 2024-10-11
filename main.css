@@ -3,7 +3,7 @@
 .text-gradient-mint-blue {
 	font-family: 'Mona-Sans', sans-serif;
 	line-height: 1.5;
-	font-size: 86px;
+	font-size:var(--step-9);
 	background: linear-gradient(271.72deg, #a2facf 7.09%, #64acff 96.61%);
 	-webkit-background-clip: text;
 	background-clip: text;
