@@ -33,7 +33,7 @@ body {
 	font-size: var(--step-3);
 	background-color: #000;
 	color: #fff;
-
+    text-rendering: geometricPrecision;
 	font-family: "DM Sans", sans-serif;
 	font-weight: 200;
 	line-height: 1.4;
